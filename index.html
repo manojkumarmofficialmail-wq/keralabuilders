@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KERALA_BUILDERS | Architecture & Interior Design Magazine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ink: '#141715',
+                        charcoal: '#242926',
+                        terracotta: '#A84A28',
+                        terracottaLight: '#C9633E',
+                        sand: '#F5F2EC',
+                        paper: '#FFFFFF'
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-sand text-ink font-sans antialiased">
+
+    <!-- Concept Preview Strip (Remove before final handoff) -->
+    <div class="bg-ink text-sand text-xs sm:text-sm py-2 px-4 text-center sticky top-0 z-50 border-b border-white/10">
+        Concept Preview for <span class="font-semibold text-terracottaLight">KERALA_BUILDERS</span> — Digital Architecture &amp; Interior Magazine Showcase
+    </div>
+
+    <!-- Header / Navigation -->
+    <nav class="bg-paper border-b border-stone-200 py-4 px-6">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-ink text-sand font-serif font-bold text-xl flex items-center justify-center rounded">
+                    kb
+                </div>
+                <div>
+                    <span class="font-serif text-xl sm:text-2xl font-bold tracking-wide text-ink block leading-none">KERALA_BUILDERS</span>
+                    <span class="text-[10px] tracking-[0.22em] uppercase text-stone-500">Architecture &amp; Interiors</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-stone-700">
+                <a href="#features" class="hover:text-terracotta transition">Features</a>
+                <a href="#showcase" class="hover:text-terracotta transition">Curated Grid</a>
+                <a href="#submit" class="hover:text-terracotta transition">Get Featured</a>
+            </div>
+            <a href="#submit" class="bg-terracotta hover:bg-terracottaLight text-white font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-lg transition">
+                Submit a Project
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="relative bg-ink text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-30">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80" alt="Contemporary Kerala Residence" class="w-full h-full object-cover">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-r from-ink via-ink/90 to-ink/40"></div>
+
+        <div class="relative max-w-6xl mx-auto px-6 py-20 sm:py-28">
+            <span class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/15 text-sand text-xs font-semibold tracking-wider uppercase mb-4">
+                Digital Magazine · 21.7K+ Community
+            </span>
+            <h1 class="font-serif text-4xl sm:text-6xl font-bold leading-tight max-w-2xl mb-6">
+                Good architecture &amp; design practices across Kerala.
+            </h1>
+            <p class="text-stone-300 text-base sm:text-lg max-w-xl mb-8 leading-relaxed">
+                A dedicated editorial home for residences, sloped-roof &amp; modern villas, interior spaces, and architectural studios from Kochi, Kottayam, and across the state.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#showcase" class="bg-terracotta hover:bg-terracottaLight text-white font-semibold px-7 py-3.5 rounded-lg text-center transition">
+                    Explore Curated Spaces
+                </a>
+                <a href="https://www.instagram.com/kerala_builders/?hl=en" target="_blank" rel="noopener noreferrer" class="border border-white/25 hover:border-white text-white px-7 py-3.5 rounded-lg text-center transition">
+                    Visit @kerala_builders on Instagram
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Strip -->
+    <section class="bg-charcoal text-sand py-6 border-y border-white/10">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-3 gap-6 text-center">
+            <div>
+                <p class="font-serif text-2xl sm:text-3xl font-bold text-white">255+</p>
+                <p class="text-xs uppercase tracking-wider text-stone-400 mt-1">Published Posts</p>
+            </div>
+            <div>
+                <p class="font-serif text-2xl sm:text-3xl font-bold text-white">21.7K</p>
+                <p class="text-xs uppercase tracking-wider text-stone-400 mt-1">Followers</p>
+            </div>
+            <div>
+                <p class="font-serif text-2xl sm:text-3xl font-bold text-white">All Kerala</p>
+                <p class="text-xs uppercase tracking-wider text-stone-400 mt-1">Studios &amp; Homes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curated Visual Showcase -->
+    <section id="showcase" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10">
+            <div>
+                <span class="text-xs font-bold uppercase tracking-widest text-terracotta">Editorial Selection</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ink mt-1">Exteriors, Roofscapes &amp; Interiors</h2>
+            </div>
+            <p class="text-sm text-stone-600 mt-2 sm:mt-0">Structured archive beyond social feed scroll</p>
+        </div>
+
+        <div class="grid sm:grid-cols-3 gap-6">
+            <article class="bg-paper rounded-xl overflow-hidden border border-stone-200 shadow-sm">
+                <div class="aspect-[4/3] overflow-hidden bg-stone-100">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80" alt="Modern Villa Architecture" class="w-full h-full object-cover">
+                </div>
+                <div class="p-5">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-terracotta">Architecture</span>
+                    <h3 class="font-serif text-2xl font-bold text-ink mt-1">Contemporary &amp; Tropical Villas</h3>
+                    <p class="text-sm text-stone-600 mt-2">Clean lines, tropical greenery, and climate-responsive elevations across Kerala.</p>
+                </div>
+            </article>
+
+            <article class="bg-paper rounded-xl overflow-hidden border border-stone-200 shadow-sm">
+                <div class="aspect-[4/3] overflow-hidden bg-stone-100">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80" alt="Pitched Roof & Facade Design" class="w-full h-full object-cover">
+                </div>
+                <div class="p-5">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-terracotta">Regional Craft</span>
+                    <h3 class="font-serif text-2xl font-bold text-ink mt-1">Pitched Roofs &amp; Warm Facades</h3>
+                    <p class="text-sm text-stone-600 mt-2">Monsoon-friendly roof forms paired with inviting lighting and natural textures.</p>
+                </div>
+            </article>
+
+            <article class="bg-paper rounded-xl overflow-hidden border border-stone-200 shadow-sm">
+                <div class="aspect-[4/3] overflow-hidden bg-stone-100">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80" alt="Interior Design Space" class="w-full h-full object-cover">
+                </div>
+                <div class="p-5">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-terracotta">Interior Design</span>
+                    <h3 class="font-serif text-2xl font-bold text-ink mt-1">Living Spaces &amp; Materiality</h3>
+                    <p class="text-sm text-stone-600 mt-2">Thoughtful spatial planning, wood accents, and calm everyday living rooms.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Value for Studios & Readers -->
+    <section id="features" class="bg-paper py-16 px-6 border-y border-stone-200">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="font-serif text-2xl font-bold text-ink mb-2">Searchable Project Archive</h3>
+                <p class="text-sm text-stone-600 leading-relaxed">Let homeowners and architects browse past features by style or location instead of losing posts in an Instagram grid.</p>
+            </div>
+            <div>
+                <h3 class="font-serif text-2xl font-bold text-ink mb-2">Partner Studio Directory</h3>
+                <p class="text-sm text-stone-600 leading-relaxed">Give featured architecture and interior studios a dedicated profile link they can share with prospective clients.</p>
+            </div>
+            <div>
+                <h3 class="font-serif text-2xl font-bold text-ink mb-2">Direct Feature &amp; Ad Leads</h3>
+                <p class="text-sm text-stone-600 leading-relaxed">Capture studio submissions, sponsored spotlights, and brand partnerships cleanly in one place.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pitch / Submission Form -->
+    <section id="submit" class="py-20 px-6 max-w-3xl mx-auto">
+        <div class="bg-paper rounded-2xl p-8 sm:p-10 border border-stone-200 shadow-sm">
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ink mb-2">Feature Your Project or Studio</h2>
+            <p class="text-sm text-stone-600 mb-6">Send project details directly via WhatsApp for editorial review.</p>
+
+            <form onsubmit="submitPitch(event)" class="grid sm:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-stone-600 mb-1.5">Studio / Architect Name</label>
+                    <input type="text" id="studioName" required placeholder="e.g., Studio Name" class="w-full border border-stone-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-terracotta">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-stone-600 mb-1.5">Location (District)</label>
+                    <input type="text" id="location" required placeholder="e.g., Kochi, Kottayam, Kozhikode" class="w-full border border-stone-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-terracotta">
+                </div>
+                <div class="sm:col-span-2">
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-stone-600 mb-1.5">Category</label>
+                    <select id="category" class="w-full border border-stone-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-terracotta">
+                        <option value="Residential Architecture">Residential Architecture</option>
+                        <option value="Interior Design">Interior Design</option>
+                        <option value="Commercial / Studio Showcase">Commercial / Studio Showcase</option>
+                    </select>
+                </div>
+                <div class="sm:col-span-2">
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-stone-600 mb-1.5">Project Notes</label>
+                    <textarea id="notes" rows="3" placeholder="Brief summary of concept, materials, or portfolio link..." class="w-full border border-stone-300 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-terracotta"></textarea>
+                </div>
+                <div class="sm:col-span-2 pt-2">
+                    <button type="submit" class="w-full bg-ink hover:bg-charcoal text-white font-semibold py-3.5 rounded-lg transition text-sm">
+                        Send Submission Preview via WhatsApp →
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-ink text-stone-400 py-8 px-6 text-center text-xs">
+        <p class="font-serif text-lg text-white font-bold mb-1">KERALA_BUILDERS</p>
+        <p>Architecture &amp; Interior Design Digital Magazine · Concept Preview</p>
+    </footer>
+
+    <script>
+        function submitPitch(e) {
+            e.preventDefault();
+            const studio = document.getElementById('studioName').value;
+            const loc = document.getElementById('location').value;
+            const cat = document.getElementById('category').value;
+            const notes = document.getElementById('notes').value || 'N/A';
+            const text = `Hello KERALA_BUILDERS team! Project inquiry:%0A*Studio:* ${studio}%0A*Location:* ${loc}%0A*Category:* ${cat}%0A*Notes:* ${notes}`;
+            alert("Demo Form Preview:\n\n" + decodeURIComponent(text));
+        }
+    </script>
+</body>
+</html>
